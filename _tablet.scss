@@ -1,0 +1,158 @@
+@media (max-width: 1024px) {
+
+    /*главная*/
+
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .for {
+        &__item {
+            height: 268px;
+        }
+    }
+
+    .content__flex {
+    column-gap: 35px;
+    row-gap: 36px;
+    }
+
+    .content__link {
+    margin-bottom: 68px;
+    }
+
+    .logo-ftr {
+    display: none;
+    }
+
+    .ftr__info {
+    gap: 130px;
+    }
+
+    /*каталог*/
+
+    .container {
+    position: absolute;
+    top: calc(100% + 14px);
+    right: -229px;;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 36px;
+    background-color: #fff;
+    box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
+    padding: 40px 48px;
+    z-index: 1;
+    }
+
+    .content__tovar {
+        margin: 0;
+    }
+
+    .content__tovar-index {
+        display: contents;
+        gap: 36px;
+        padding-top: 22px;
+        flex-wrap: wrap;
+    }
+
+    .cart__form {
+        box-sizing: border-box;
+        }
+
+    .cart {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+    }
+    
+    /*корзина*/
+
+    .top-cart {
+        width: 100%;
+    }
+
+    /*.cart {
+    display: grid;
+    gap: 32px;
+    margin-top: 64px;
+    }*/
+    
+    .cart__left {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 32px;
+    width: 100%;
+    }
+
+    .cart__name {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .cart__price {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .cart__item {
+        padding-left: 0px;
+        padding-top: 26px;
+        padding-bottom: 30px;
+    }
+
+    .cart__btns {
+        display: flex;
+        gap: 6px;
+    }
+
+    .cart__form-title {
+        padding-top: 69px;
+    }
+
+    .content__product {
+        margin-left: 0px;
+        padding-top: 26px;
+    }
+
+    .ftr {
+        background-color: #F7F6F6;
+        display: block;
+        box-sizing: border-box;
+        /*padding-top: 5%;*/
+        padding-top: 27px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -21px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .content__tovar {
+        width: 340px;
+    }
+
+    /*.cart {
+    display: grid;
+    gap: 32px;
+    margin-top: 64px;
+    }*/
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+
+        &__form {
+        box-sizing: border-box;
+        }
+    }
+}
