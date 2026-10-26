@@ -68,16 +68,16 @@ a {
   background: transparent;
   box-sizing: border-box;
   font-size: 16px;
+  padding-left: 34px;
+  padding-right: 34px;
 }
 
 .inpt-search::-moz-placeholder {
   color: white;
-  padding-left: 34px;
 }
 
 .inpt-search::placeholder {
   color: white;
-  padding-left: 34px;
 }
 
 .inpt-search:focus-visible {
@@ -337,7 +337,7 @@ a {
   padding-bottom: 49px;
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
+  /*margin-left: 10px;*/
 }
 
 .logo-ftr {
@@ -470,14 +470,11 @@ a {
   font-size: 64px;
   line-height: 70px;
   margin-top: 127px;
-  /*padding-bottom: 196px;*/
-  /*max-width: 792px;*/
 }
 
 .content {
   font-size: 16px;
   line-height: 24px;
-  /*padding-top: 64px;*/
 }
 
 .catalog {
@@ -508,6 +505,14 @@ a {
   font-weight: 500;
   font-size: 16px;
   color: #000000;
+}
+
+.container__btn:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+  background-color: #000000;
+  color: #FFFFFF;
+  transition: 0.5s;
 }
 
 .select-css {
@@ -655,6 +660,7 @@ a {
   border: none;
   border-bottom: 0.5px solid #CACDD8;
   background-color: transparent;
+  color: #000000 !important;
 }
 .cart__form-ftr {
   display: flex;
@@ -707,6 +713,10 @@ a {
 }
 .cart__btns-3 {
   padding: 10px 22px 10px 20px;
+}
+
+.cart__form-inputs-1:hover {
+  color: #000000;
 }
 
 .cart__link-box-1:hover {
@@ -1234,7 +1244,6 @@ a {
 }
 @media (max-width: 767px) {
   div, section {
-    width: 100%;
     box-sizing: border-box;
   }
   /*главная*/
@@ -1264,7 +1273,6 @@ a {
   }
   .hero-page {
     min-height: 734px;
-    width: 100%;
     box-sizing: content-box;
     background-image: url("img/bg-hero.png");
     background-size: cover;
@@ -1315,7 +1323,7 @@ a {
   .content__product {
     font-size: 24px;
     line-height: 29px;
-    padding-bottom: 32px;
+    /*padding-bottom: 32px;*/
   }
   .content__prise {
     font-size: 18px;
@@ -1363,7 +1371,8 @@ a {
     align-items: center;
   }
   .content__tovar {
-    width: 342px;
+    /*width: 342px;*/
+    width: 100%;
   }
   .content__link {
     margin-top: 36px;
@@ -1500,6 +1509,9 @@ a {
   .ftr__info-1 {
     display: flex;
     gap: 130px;
+  }
+  .content__product {
+    padding-top: 0;
   }
 }
 @media (min-width: 320px) and (max-width: 375px) {

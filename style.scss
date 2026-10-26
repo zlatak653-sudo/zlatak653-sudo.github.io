@@ -69,11 +69,12 @@ a {
     background: transparent;
     box-sizing: border-box;
     font-size: 16px;
+    padding-left: 34px;
+    padding-right: 34px;
 }
 
 .inpt-search::placeholder {
     color: $color-text;
-    padding-left: 34px;
 }
 
 .inpt-search:focus-visible {
@@ -330,7 +331,7 @@ a {
     padding-bottom: 49px;
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
 }
 
 .logo-ftr {
@@ -460,15 +461,12 @@ a {
     font-weight: 600; 
     font-size: 64px; 
     line-height: 70px;
-    margin-top: 127px; 
-    /*padding-bottom: 196px;*/
-    /*max-width: 792px;*/
+    margin-top: 127px;
 }
 
 .content {
     font-size: 16px; 
     line-height: 24px;
-    /*padding-top: 64px;*/
 }
 
 .catalog {
@@ -506,6 +504,14 @@ a {
     color: #000000
     }
 
+}
+
+.container__btn:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    transition: 0.5s;
 }
 
 .select-css {

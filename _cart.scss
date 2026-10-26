@@ -139,6 +139,7 @@
         border: none;
         border-bottom: 0.5px solid #CACDD8;
         background-color: transparent;
+        color: #000000 !important;
     }
     
     &__form-ftr {
@@ -201,6 +202,10 @@
     &__btns-3 {
         padding: 10px 22px 10px 20px;
     }
+}
+
+.cart__form-inputs-1:hover {
+    color: #000000;
 }
 
 .cart__link-box-1:hover {
